@@ -1,8 +1,158 @@
 @font-face {
-    font-family: HelveticaRegular;
-    src: url(../fonts/HelveticaRegular.eot);
-    src: local('☺'), url('../fonts/HelveticaRegular.woff') format('woff'), url('../fonts/HelveticaRegular.ttf') format('truetype');
+    font-family: OpenSansRegular;
+    src: url(../fonts/OpenSansRegular.eot);
+    src: local('☺'), url('../fonts/OpenSansRegular.woff') format('woff'), url('../fonts/OpenSansRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: OpenSansSemiBold;
+    src: url(../fonts/OpenSansSemiBold.eot);
+    src: local('☺'), url('../fonts/OpenSansSemiBold.woff') format('woff'), url('../fonts/OpenSansSemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$main_color : #FF8026;
+
+body{
+    font-family: OpenSansRegular;
+}
+
+html,body{
+    height: 100%;
+}
+.wrapper{
+    height: 100%;
+}
+
+
+.input-style-transp{
+    max-width: 250px;
+    width: 100%;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto 10px auto;
+    border: 1px solid rgba(0,0,0,0.12);
+    background-color: transparent;
+    padding: 12px 0;
+    text-align: center;
+    outline: none;
+}
+
+.butt-orange{
+    max-width: 275px;
+    width: 100%;
+    border-radius: 50px;
+    display: block;
+    margin: 20px auto;
+    background-color: $main_color;
+    padding: 12px 0;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    line-height: 26px;
+}
+.forgot-pass{
+    font-size: 14px;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+    display: block;
+    &:hover{
+        color: $main_color;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lang-change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        display: block;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover{
+            background-color: #FAFAFA;
+        }
+        &.active{
+            color: #FF7F25;
+        }
+    }
+}
+
+.sign-in-up-wrapp{
+    height: 100%;
+    .sign-in-style-logo{
+        max-width: 162px;
+        margin: 0 auto 10px auto;
+    }
+    .for-fixed-bg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+         min-height: 100%;
+        background-image: url(../img/bg-sign-in.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .middle-line-bg{
+        position: relative;
+        z-index: 5;
+        min-height: 100%;
+        width: 610px;
+        margin: 0 auto;
+        background-color: rgba(255,255,255,0.95);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        
+    }
+    .body-forms{
+        margin-bottom: 60px;
+        form{
+            max-width: 375px;
+            margin: 0 auto;
+        }
+        .head-text{
+            margin-bottom: 25px;
+            font-size: 20px;
+            text-align: center;
+            &.small-size{
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
+
+
 
