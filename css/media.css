@@ -1,3 +1,10 @@
-
+@media (max-width: 1800px) {
+  .search-form .input-text-style {
+    width: 250px;
+    min-width: 0; } }
+@media (max-width: 1500px) {
+  .search-form .input-text-style {
+    width: 150px;
+    min-width: 0; } }
 
 /*# sourceMappingURL=media.css.map */
