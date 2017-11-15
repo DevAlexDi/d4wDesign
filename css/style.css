@@ -588,5 +588,19 @@ input::-webkit-inner-spin-button {
   .all-coworkings .map {
     height: 300px;
     border: 1px solid red; }
+  .all-coworkings .all-coworkings-flex {
+    display: flex;
+    flex-wrap: wrap; }
+    .all-coworkings .all-coworkings-flex .one-cowork-wr {
+      padding: 10px;
+      width: 33.33%; }
+      .all-coworkings .all-coworkings-flex .one-cowork-wr .one-cowork {
+        position: relative; }
+        .all-coworkings .all-coworkings-flex .one-cowork-wr .one-cowork .img-cowork {
+          height: 200px;
+          background-size: cover;
+          background-position: center;
+          background-image: url(../img/bg-sign-in.png);
+          border-bottom: 2px solid #FF8026; }
 
 /*# sourceMappingURL=style.css.map */

@@ -783,4 +783,22 @@ input::-webkit-inner-spin-button {
         height: 300px;
         border: 1px solid red;
     }
+    .all-coworkings-flex{
+        display: flex;
+        flex-wrap: wrap;
+        .one-cowork-wr{
+            padding: 10px;
+            width: 33.33%;
+            .one-cowork{
+               position: relative;
+                .img-cowork{
+                    height: 200px;
+                    background-size: cover;
+                    background-position: center;
+                    background-image: url(../img/bg-sign-in.png);
+                    border-bottom: 2px solid $main_color;
+                }
+            }
+        }
+    }
 }
