@@ -7,7 +7,11 @@
     }
 }
 
-
+@media (max-width: 1600px) {
+    .all-coworkings .all-coworkings-flex .one-cowork-wr{
+        width: 50%;
+    }
+}
 
 @media (max-width: 1500px) {
     .search-form{
